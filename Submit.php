@@ -1,6 +1,6 @@
 <?php
 $merchantreference = rand(1, 1000000000000000000);
-$callbackurl = 'https://equity-kenya.github.io/equity/index.html'
+$callbackurl = 'http://a790-105-161-173-28.ngrok-free.app'
 //$branch = "Equity main"//
 $ipn_id = "051d7fa9-c1b9-4289-8127-dd9d2673de5f";
 // Retrieve form data
@@ -11,9 +11,7 @@ $phone = '0793381357';
 //$middle_name = $_POST['middle_name'];//
 //$email_address = $_POST['email_address'];//
 
-if(APP_ENVIROMENT == 'sandbox'){
-  $submitOrderUrl = "https://cybqa.pesapal.com/pesapalv3/api/Transactions/SubmitOrderRequest";
-}elseif(APP_ENVIROMENT == 'live'){
+if(APP_ENVIROMENT == 'live'){
   $submitOrderUrl = "https://pay.pesapal.com/v3/api/Transactions/SubmitOrderRequest";
 }else{
   echo "Invalid APP_ENVIROMENT";
@@ -56,4 +54,4 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 echo $response = curl_exec($ch);
 $responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-?>
+
